@@ -205,11 +205,17 @@ Scalar functions: Scalar functions perform computations on a single input value 
 DATE_DIFF(CURRENT_DATE(), birth_date, YEAR)
 ```
 YEAR: Difference in full years.
+
 QUARTER: Difference in quarters.
+
 MONTH: Difference in months.
+
 DAY: Difference in days.
+
 HOUR: Difference in hours.
+
 MINUTE: Difference in minutes.
+
 SECOND: Difference in seconds.
 
 * EXTRACTION:
@@ -217,24 +223,43 @@ SECOND: Difference in seconds.
 EXTRACT(YEAR FROM TIMESTAMP(DATE(ss.sold_date)))
 ```
 YEAR: Extracts the year from a TIMESTAMP or DATE.
+
 QUARTER: Extracts the quarter (1-4) from a TIMESTAMP or DATE.
+
 MONTH: Extracts the month (1-12) from a TIMESTAMP or DATE.
+
 DAY: Extracts the day of the month (1-31) from a TIMESTAMP or DATE.
+
 DAYOFWEEK: Extracts the day of the week (1-7, where Sunday is 1) from a TIMESTAMP or DATE.
+
 DAYOFYEAR: Extracts the day of the year (1-366) from a TIMESTAMP or DATE.
+
 WEEK: Extracts the ISO 8601 week number (1-53) from a TIMESTAMP or DATE.
+
 HOUR: Extracts the hour (0-23) from a TIMESTAMP.
+
 MINUTE: Extracts the minute (0-59) from a TIMESTAMP.
+
 SECOND: Extracts the second (0-59) from a TIMESTAMP.
+
 MILLISECOND: Extracts the millisecond (0-999) from a TIMESTAMP.
+
 MICROSECOND: Extracts the microsecond (0-999999) from a TIMESTAMP.
+
 NANOSECOND: Extracts the nanosecond (0-999999999) from a TIMESTAMP.
+
 TIME: Extracts the time portion of a TIMESTAMP.
+
 DATE: Extracts the date portion of a TIMESTAMP.
+
 TIMEZONE_HOUR: Extracts the time zone offset in hours from a TIMESTAMP.
+
 TIMEZONE_MINUTE: Extracts the time zone offset in minutes from a TIMESTAMP.
+
 DATETIME: Extracts both the date and time from a TIMESTAMP.
+
 TIMESTAMP_ADD: Adds a specified duration to a TIMESTAMP.
+
 TIMESTAMP_SUB: Subtracts a specified duration from a TIMESTAMP.
 
 * PARSING DATE/TIMESTAMP:
