@@ -308,7 +308,7 @@ SUBSTR(c_birth_country, 1, 1) -- START FROM 1 GIVE 1
 ```sql
 SELECT
   date_column,
-  SUM(sales_amount) OVER (ORDER BY date_column) AS cumulative_sales_total
+  SUM(sales_amount) OVER (--PARTITION BY column_name-- ORDER BY date_column) AS cumulative_sales_total
 FROM
   your_table;
 ```
